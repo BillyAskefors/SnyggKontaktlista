@@ -21,17 +21,16 @@ namespace SnyggKontaktlista
             {
                 Connection.AddContact(firstname.Text, lastname.Text, ssn.Text);
                 kontakt_lit.Text = Connection.Show();
-                //UpdateList();
+
             }
             if (Request.QueryString["delete"] != null)
             {
                 Connection.DeleteContact(Request.QueryString["delete"]);
             }
-            if (!IsPostBack)
+            if (IsPostBack)
             {
                 kontakt_lit.Text = Connection.Show();
-                
-                //UpdateList();
+
             }
         }
 

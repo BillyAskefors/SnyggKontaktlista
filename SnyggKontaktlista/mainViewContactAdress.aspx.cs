@@ -13,9 +13,7 @@ using ContactListLibrary;
 namespace SnyggKontaktlista
 {
     public partial class WebForm6 : System.Web.UI.Page
-    {
-        const string CON_STR = "Data Source=ACADEMY009-VM;Initial Catalog=Contacts;Integrated Security=SSPI";
-        
+    {   
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.QueryString["DELETE"] != null)
@@ -27,14 +25,12 @@ namespace SnyggKontaktlista
             if (!IsPostBack)
             {
                 adress_lit.Text = Connection.ShowAdresses(Request.QueryString["id"]);
-                //ShowAdress();
             }
 
             if (type_test.Text.Length != 0 && type_test.Text != null)
             {
                 Connection.EditAdress(hiddenID.Text, type_test.Text, street_test.Text, city_test.Text);
                 adress_lit.Text = Connection.ShowAdresses(Request.QueryString["id"]);
-                //ShowAdress();
             }
             
             if (type.Text.Length != 0 && type.Text != null)

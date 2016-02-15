@@ -29,7 +29,7 @@
                         <button type="submit" class="btn btn-default" data-submit="modal">Addera</button>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </div>
 
