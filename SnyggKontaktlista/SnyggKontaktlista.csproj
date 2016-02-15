@@ -69,9 +69,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dll-fil\ContactListLibrary.sln" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="databas_backup\bakupSQLBilly" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
