@@ -153,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Folder med dll\ContactListLibrary\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
