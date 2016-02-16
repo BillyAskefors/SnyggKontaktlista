@@ -41,7 +41,7 @@ namespace SnyggKontaktlista
             }
             if (Request.QueryString["EDIT"] != null)
             {
-                Connection.Edi(hiddenID.Text, type_test.Text, street_test.Text, city_test.Text);
+                Connection.edit (hiddenID.Text, type_test.Text, street_test.Text, city_test.Text);//dafuc
                 adress_lit.Text = Connection.ShowAdresses(Request.QueryString["id"]);
             }
         }
