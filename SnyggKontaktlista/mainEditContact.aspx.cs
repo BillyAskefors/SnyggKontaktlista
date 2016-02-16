@@ -19,7 +19,7 @@ namespace SnyggKontaktlista
         {
             int conID = Convert.ToInt32(Request.QueryString["id"]);
             UpdateList(conID);
-            
+
         }
         private void UpdateContact(int reqID)
         {

@@ -22,30 +22,48 @@ namespace SnyggKontaktlista {
         protected global::System.Web.UI.WebControls.Literal kontakt_lit;
         
         /// <summary>
-        /// firstname control.
+        /// hiddenAction control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox firstname;
+        protected global::System.Web.UI.WebControls.TextBox hiddenAction;
         
         /// <summary>
-        /// lastname control.
+        /// hiddenID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lastname;
+        protected global::System.Web.UI.WebControls.TextBox hiddenID;
         
         /// <summary>
-        /// ssn control.
+        /// fName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ssn;
+        protected global::System.Web.UI.WebControls.TextBox fName;
+        
+        /// <summary>
+        /// lName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox lName;
+        
+        /// <summary>
+        /// ssnID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ssnID;
     }
 }

@@ -17,9 +17,9 @@ namespace SnyggKontaktlista
         const string CON_STR = "Data Source=ACADEMY009-VM;Initial Catalog=Contacts;Integrated Security=SSPI";
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (firstname.Text.Length != 0 && firstname.Text != null)
+            if (hiddenAction.Text == "ADD")
             {
-                Connection.AddContact(firstname.Text, lastname.Text, ssn.Text);
+                Connection.AddContact(fName.Text, lName.Text, ssnID.Text);
                 kontakt_lit.Text = Connection.Show();
 
             }
@@ -31,6 +31,11 @@ namespace SnyggKontaktlista
             {
                 kontakt_lit.Text = Connection.Show();
 
+            }
+            if (hiddenAction.Text == "EDIT")
+            {
+                Connection.EditUser(hiddenID.Text, fName.Text, lName.Text, ssnID.Text);
+                kontakt_lit.Text = Connection.Show();
             }
         }
 
