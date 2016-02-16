@@ -71,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Pictures\BillyAskefors.jpg" />
+    <Content Include="Pictures\GustavÅkeman.jpg" />
+    <Content Include="Pictures\JakobSegerslätt.jpg" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="databas_backup\bakupSQLBilly" />

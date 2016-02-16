@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Data;
 using System.IO;
+using System.Web.Configuration;
 
 namespace SnyggKontaktlista
 {
@@ -24,7 +25,7 @@ namespace SnyggKontaktlista
         private void UpdateContact(int reqID)
         {
             SqlConnection myConnection = new SqlConnection();
-            myConnection.ConnectionString = CON_STR;
+            myConnection.ConnectionString = WebConfigurationManager.ConnectionStrings["BillysSQL"].ToString();
 
             try
             {

@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="main.aspx.cs" Inherits="SnyggKontaktlista.WebForm4" %>
 
+
 <asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
     <asp:Literal ID="kontakt_lit" runat="server"></asp:Literal>
-
+    
     <script>
          
         function showContactModal(id, firstname, lastname, ssn, action) {
