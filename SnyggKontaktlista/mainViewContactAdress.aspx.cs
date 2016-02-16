@@ -39,6 +39,11 @@ namespace SnyggKontaktlista
                 Connection.AddAdress(ID, type.Text, street.Text, city.Text);
                 Response.Redirect($"./mainViewContactAdress.aspx?id={ID}");
             }
+            if (Request.QueryString["EDIT"] != null)
+            {
+                Connection.Edi(hiddenID.Text, type_test.Text, street_test.Text, city_test.Text);
+                adress_lit.Text = Connection.ShowAdresses(Request.QueryString["id"]);
+            }
         }
 
         //protected void editAdress()

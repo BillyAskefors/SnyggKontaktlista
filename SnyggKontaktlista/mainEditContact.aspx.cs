@@ -87,7 +87,6 @@ namespace SnyggKontaktlista
                     changeContact.Text += $"<td>{myReader["ssn"].ToString()}</td>";
                 }
                 myReader.Close();
-                //myCommand.ExecuteNonQuery();
             }
 
             catch (Exception ex)
