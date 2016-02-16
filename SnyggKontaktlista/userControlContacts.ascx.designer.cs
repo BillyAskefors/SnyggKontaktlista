@@ -13,12 +13,30 @@ namespace SnyggKontaktlista {
     public partial class userControlContacts {
         
         /// <summary>
-        /// test control.
+        /// firstname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox test;
+        protected global::System.Web.UI.WebControls.TextBox firstname;
+        
+        /// <summary>
+        /// lastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox lastname;
+        
+        /// <summary>
+        /// ssn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ssn;
     }
 }

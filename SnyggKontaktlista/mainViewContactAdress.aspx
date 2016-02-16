@@ -7,13 +7,16 @@
     <asp:Literal ID="adress_lit" runat="server"></asp:Literal>
 
     <script>
+         
         function showModal(id, type, street, city) {
-            $('input.hiddenID').val(id);
-            $('input.type_test').val(type);
-            $('input.street_test').val(street);
-            $('input.city_test').val(city);
-            $('#editModal').modal();
+            
+                $('input.hiddenID').val(id);
+                $('input.type_test').val(type);
+                $('input.street_test').val(street);
+                $('input.city_test').val(city);
+                $('#editModal').modal();
         }
+        
     </script>
     <div class="container">
 
@@ -33,8 +36,6 @@
                         <asp:TextBox CssClass="street_test" ID="street_test" runat="server"></asp:TextBox>
                         <p>Stad</p>
                         <asp:TextBox CssClass="city_test" ID="city_test" runat="server"></asp:TextBox>
-                        
-                        <uc1:userControlContacts runat="server" ID="userControlContacts" />
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

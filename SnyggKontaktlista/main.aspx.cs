@@ -27,7 +27,7 @@ namespace SnyggKontaktlista
             {
                 Connection.DeleteContact(Request.QueryString["delete"]);
             }
-            if (IsPostBack)
+            if (!IsPostBack)
             {
                 kontakt_lit.Text = Connection.Show();
 

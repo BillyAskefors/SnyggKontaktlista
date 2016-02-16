@@ -58,15 +58,6 @@ namespace SnyggKontaktlista {
         protected global::System.Web.UI.WebControls.TextBox city_test;
         
         /// <summary>
-        /// userControlContacts control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::SnyggKontaktlista.userControlContacts userControlContacts;
-        
-        /// <summary>
         /// type control.
         /// </summary>
         /// <remarks>
