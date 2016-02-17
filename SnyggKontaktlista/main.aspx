@@ -60,7 +60,7 @@
 
 
     <div class="container">
-        <button type="button" class="btn btn-info btn-lg" onclick="showContactModal('','','','','ADD')">Addera kontakt</button>
+        <button type="button" class="btn btn-info btn-lg" onclick="showContactModal('','','','','ADD')"><span class="glyphicon glyphicon-plus-sign"></span> Addera kontakt</button>
     </div>
     <%--<!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
